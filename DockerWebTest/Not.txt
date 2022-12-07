@@ -1,0 +1,4 @@
+﻿1. web sitesinin kodlaması bittikten sonra release modda derlenir ve locale publish edilir
+2. docker file oluşturulur ve örnek dockerfile dakine benzer kodlar çalıştırılır
+3. derleme yapılır ve image elde edilir => 	docker build -t imageName:v1 .
+4. oluşan image run edilerek container oluşturulur(5000 portunda çalışacak) => 	docker run -p 5000:80 imageName  
